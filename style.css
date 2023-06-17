@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: gold;
+    position: relative;
+    height: 500px;
+    width: 800px;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.emoji{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: black;
+    background-color: gray;
+    opacity: 0.5;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 70px;
+}
+
+.left-shape{
+    border-bottom: 120px solid coral;
+	border-right: 300px solid transparent;
+	height: 0;
+	width: 30%;
+    position: absolute;
+    bottom: 0;
+}
+
+.right-shape{
+    border-bottom: 120px solid coral;
+	border-left: 300px solid transparent;
+	height: 0;
+	width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
